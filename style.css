@@ -1,0 +1,10 @@
+.sea {
+  font-family: 'Roboto', sans-serif;
+  width: 480px;
+  height: 480px;
+  display: flex;
+}
+
+.wave div {
+  margin: 6px;
+}
