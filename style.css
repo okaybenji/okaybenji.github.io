@@ -1,23 +1,21 @@
 body {
   background-color: #f6aab8;
-  background-image: url(blue-paper.png);
-  background-size: 10vw;
   font-family: 'Quicksand', sans-serif;
 }
 
 main {
-  margin: 11vw;
+  margin: 30vw;
   color: red;
   font-size: 4vw;
 }
 
 a {
-  color: lightblue;
+  color: maroon;
 }
 
 .sea {
 /*  color: rgba(241, 60, 51, 50%);*/
-  color: yellow;
+  color: red;
 /*  opacity: 0.2;*/
   width: 480px;
   height: 480px;
