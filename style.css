@@ -6,8 +6,8 @@ body {
 }
 
 main {
-  margin: 37vw 33vw;
-  font-size: 2vw;
+  margin: 20vw 26vw;
+  font-size: 3vw;
 }
 
 a {
@@ -31,7 +31,7 @@ p {
 .name {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  font-size: 7vw;
+  font-size: 9vw;
   display: flex;
   justify-content: space-between;
 }

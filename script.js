@@ -30,10 +30,10 @@ document.onmousemove = event => {
     ripple.style = `transform: rotate(${rotation}deg);`;
   });
 
-  $('.name div').forEach((ripple, i) => {
-    const distance = distFromElement(ripple, pageX, pageY);
+  $('.name div').forEach((letter, i) => {
+    const distance = distFromElement(letter, pageX, pageY);
     const areaOfEffect = 250;
     const rotation = scale(distance, 0, areaOfEffect, 30, 0, easeOutQuad);
-    ripple.style = `transform: rotate(${rotation}deg);`;
+    letter.style = `transform: rotate(${rotation}deg);`;
   });
 };
