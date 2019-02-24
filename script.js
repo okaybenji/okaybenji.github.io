@@ -26,7 +26,7 @@ document.onmousemove = event => {
   $('.wave div').forEach((ripple, i) => {
     const distance = distFromElement(ripple, pageX, pageY);
     const areaOfEffect = 250;
-    const rotation = scale(distance, 0, areaOfEffect, 180, 0, easeOutQuad);
+    const rotation = scale(distance, 0, areaOfEffect, -30, 30, easeOutQuad);
     ripple.style = `transform: rotate(${rotation}deg);`;
   });
 };

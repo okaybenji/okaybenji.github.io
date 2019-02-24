@@ -1,12 +1,14 @@
 body {
   background-color: #f6aab8;
+  margin: 0;
   font-family: 'Quicksand', sans-serif;
 }
 
 main {
   margin: 30vw;
   color: red;
-  font-size: 4vw;
+  font-size: 3vw;
+  font-weight: 500;
 }
 
 a {
@@ -17,8 +19,6 @@ a {
 /*  color: rgba(241, 60, 51, 50%);*/
   color: red;
 /*  opacity: 0.2;*/
-  width: 480px;
-  height: 480px;
   display: flex;
   width: 100%;
   height: 100%;
@@ -26,12 +26,14 @@ a {
   top: 0;
   left: 0;
   z-index: -1;
+  margin: 1vw 5vw;
+  font-weight: 700;
 }
 
 .wave div {
   margin: 1vw;
-  width: 10vw;
+  width: 4vw;
   font-size: 10vw;
-  height: 10vw;
+  height: 5.1vw;
+  transform: rotate(30deg);
 }
-
