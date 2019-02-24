@@ -22,24 +22,24 @@ const distFromElement = (element, x, y) => dist(x, y, element.offsetLeft + eleme
 
 const randomIntBetween = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
-const randomColor = () => {
+const getColor = (i) => {
   const minBrightness = 25;
   const minSaturation = 50;
 
   let color = 'hsl(';
-  color += randomIntBetween(0, 360) + ',';
-  color += randomIntBetween(minSaturation, 100) + '%,';
-  color += randomIntBetween(minBrightness, 100) + '%)';
+  color += (i % 180) + 120 + ',';
+  color += '100%,';
+  color += '50%)';
   return color;
 };
 
 document.onmousemove = event => {
   const {pageX, pageY} = event;
 
-  $('.wave div').forEach(ripple => {
+  $('.wave div').forEach((ripple, i) => {
     const distance = distFromElement(ripple, pageX, pageY);
     const areaOfEffect = 250;
     const rotation = scale(distance, 0, areaOfEffect, 180, 0, easeOutQuad);
-    ripple.style = `transform: rotate(${rotation}deg); color: ${randomColor()}`;
+    ripple.style = `transform: rotate(${rotation}deg); color: ${getColor(i)}`;
   });
 };
