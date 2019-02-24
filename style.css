@@ -1,22 +1,44 @@
 body {
+  color: #ffe7eb;
   background-color: #f6aab8;
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 main {
-  margin: 33vw;
-  color: red;
+  margin: 37vw 33vw;
   font-size: 2vw;
-  font-weight: 500;
 }
 
 a {
-  color: maroon;
+  color: red;
+  font-weight: 900;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  text-transform: capitalize;
+}
+
+.desc::after {
+  content: '...';
+}
+
+.name {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 7vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sea {
   color: red;
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   width: 100%;
   height: 100%;
@@ -32,6 +54,6 @@ a {
   margin: 1vw;
   width: 4.6vw;
   font-size: 9vw;
-  height: 5vw;
+  height: 7vw;
   transform: rotate(30deg);
 }

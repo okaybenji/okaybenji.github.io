@@ -29,4 +29,11 @@ document.onmousemove = event => {
     const rotation = scale(distance, 0, areaOfEffect, -30, 30, easeOutQuad);
     ripple.style = `transform: rotate(${rotation}deg);`;
   });
+
+  $('.name div').forEach((ripple, i) => {
+    const distance = distFromElement(ripple, pageX, pageY);
+    const areaOfEffect = 250;
+    const rotation = scale(distance, 0, areaOfEffect, 30, 0, easeOutQuad);
+    ripple.style = `transform: rotate(${rotation}deg);`;
+  });
 };
