@@ -14,13 +14,21 @@ main {
   line-height: 3vw;
 }
 
-a {
+i {
   color: red;
-  text-decoration: none;
   font-size: 3vw;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 a:hover {
+  color: red;
+}
+
+i:hover {
   color: white;
 }
 
@@ -57,10 +65,9 @@ p {
   width: 100%;
   height: 100%;
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
-  z-index: -1;
-  font-weight: 700;
 }
 
 .wave div {
