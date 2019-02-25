@@ -10,7 +10,7 @@ body {
 main {
   margin: 20vw;
   font-size: 2vw;
-  width: 38vw;
+  width: 40vw;
 }
 
 a {
@@ -54,9 +54,9 @@ p {
 }
 
 .wave div {
-  margin: 1vw;
+  margin: 0.5vw;
   width: 4.6vw;
   font-size: 9vw;
-  height: 7vw;
+  height: 6vw;
   transform: rotate(30deg);
 }
