@@ -8,14 +8,20 @@ body {
 }
 
 main {
-  margin: 20vw;
+  margin: 23.5vw 0;
   font-size: 2vw;
   width: 40vw;
+  line-height: 3vw;
 }
 
 a {
   color: red;
-  font-weight: 900;
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+a:hover {
+  color: white;
 }
 
 p {
@@ -31,12 +37,16 @@ p {
   content: '...';
 }
 
-.name {
+.name, .name .last {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: 8vw;
   display: flex;
   justify-content: space-between;
+}
+
+.name .last {
+  color: red;
 }
 
 .sea {
