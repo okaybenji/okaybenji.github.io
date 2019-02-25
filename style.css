@@ -1,13 +1,16 @@
 body {
-  color: maroon;
+  color: #ffe7eb;
   background-color: #f6aab8;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 main {
-  margin: 20vw 26vw;
-  font-size: 3vw;
+  margin: 20vw;
+  font-size: 2vw;
+  width: 38vw;
 }
 
 a {
@@ -31,7 +34,7 @@ p {
 .name {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  font-size: 9vw;
+  font-size: 8vw;
   display: flex;
   justify-content: space-between;
 }
