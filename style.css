@@ -1,6 +1,6 @@
 body {
-  color: #ffe7eb;
-  background-color: #f6aab8;
+  color: #fff6f2;
+  background-color: #ffb397;
   margin: 0;
   font-family: 'Raleway', sans-serif;
   display: flex;
@@ -15,21 +15,21 @@ main {
 }
 
 i {
-  color: red;
+  color: #ff1d00;
   font-size: 3vw;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #fff6f2;
 }
 
 a:hover {
-  color: red;
+  color: #ff1d00;
 }
 
 i:hover {
-  color: white;
+  color: #fff6f2;
 }
 
 p {
@@ -54,11 +54,11 @@ p {
 }
 
 .name .last {
-  color: red;
+  color: #ff1d00;
 }
 
 .sea {
-  color: red;
+  color: #ff1d00;
   font-family: 'Quicksand', sans-serif;
   display: flex;
   justify-content: center;
