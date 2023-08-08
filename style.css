@@ -86,7 +86,7 @@ a {
 }
 
 a i, a:active i, a:visited i {
-  color: blue;
+  color: hsl(223, 100%, 51%);
 }
 
 a i:hover.blue {
