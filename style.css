@@ -23,15 +23,18 @@ body {
   flex-direction: column;
 }
 
+.header .titles {
+  position: relative;
+  top: min(10.5vw, 10.5vh);
+  left: min(11.5vw, 11.5vh);
+}
+
 .titles {
   width: min(75vw, 75vh);
   display: flex;
   justify-content: space-between;
   color: hsl(26, 100%, 50%);
   font-size: min(3.25vw, 3.25vh);
-  position: relative;
-  top: min(10.5vw, 10.5vh);
-  left: min(11.5vw, 11.5vh);
 }
 
 .titles i {
@@ -60,20 +63,9 @@ body {
   justify-content: center;
 }
 
-.videos div {
-  display: flex;
-  justify-content: center;
-  margin-bottom:
-}
-
 .videos .embeds {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-}
-
-.videos .embeds * {
-  margin-bottom: min(10vw, 10vh);
 }
 
 .videos .embeds iframe {
