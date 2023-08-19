@@ -58,17 +58,7 @@ body {
   top: max(-11vw, -11vh);
 }
 
-.videos {
-  display: flex;
-  justify-content: center;
-}
-
-.videos .embeds {
-  display: flex;
-  justify-content: center;
-}
-
-.videos .embeds iframe {
+iframe {
   max-width: 90vw;
 }
 
